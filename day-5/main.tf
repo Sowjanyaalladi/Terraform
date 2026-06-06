@@ -14,9 +14,5 @@ resource "aws_subnet" "name" {
     }
 }
 =======
-    cidr_block = "10.0.0.64/26"
-    tags = {
-        Name = "Terraform-0900AM"
-    }
-}
+
 >>>>>>> 779bc20 (day5)

@@ -3,11 +3,5 @@ resource "aws_vpc" "name" {
     tags = {
         Name = "Terraform-1100AM"
     }
-} 
-resource "aws_subnet" "name" {
-    vpc_id     = aws_vpc.name.id
-    cidr_block = "10.0.0.64/26"
-    tags = {
-        Name = "Terraform-0900AM"
-    }
+  
 }
